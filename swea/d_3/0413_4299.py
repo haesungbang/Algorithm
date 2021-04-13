@@ -7,6 +7,8 @@ def paparo(time):
             ans += time[i] * 24 * 60
         elif i!=2:
             ans += time[i] * 60
+        else:
+            ans += time[i]
     if ans < 0:
         return -1
     return ans
