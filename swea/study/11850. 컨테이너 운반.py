@@ -1,4 +1,5 @@
 # 11850. 컨테이너
+# 꼭 다 순회할 필오가 없다. 앞에서부터 차근차근!
 '''
 def max_weight():
     global max_cargo
