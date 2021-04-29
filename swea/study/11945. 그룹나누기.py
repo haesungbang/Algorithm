@@ -1,5 +1,5 @@
 # 11946. 그룹나누기(find_set 활용하기)
-
+# id 를 만지는 느낌이다. find_set 으로 id를 찾고 set으로 중복을 거른다.
 def find_set(x):
     while x != p[x]:
         x = p[x]
