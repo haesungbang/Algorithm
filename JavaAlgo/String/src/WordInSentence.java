@@ -1,8 +1,8 @@
-package wordinsentence;
+
 
 import java.util.Scanner;
 
-public class Main {
+public class WordInSentence {
 
 	public String solution(String str) {
 		String answer = "";
@@ -39,7 +39,7 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		Main T = new Main();
+		WordInSentence T = new WordInSentence();
 		Scanner kb = new Scanner(System.in);
 		// 한 줄을 입력 받아야 된다.
 		String str = kb.nextLine();

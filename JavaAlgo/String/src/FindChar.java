@@ -1,4 +1,4 @@
-package findchar;
+
 import java.util.Scanner;
 
 public class FindChar {
