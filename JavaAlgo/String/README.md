@@ -137,7 +137,7 @@ if(!Character.isAlphabetic(s[lt])) lt++;
 - **String.valueOf(s)**
 
 ```java
-// char[] 를 문자열로 바꿀 때
+// 문자열로 바꿀 때
 answer=String.valueOf(s);
 ```
 
@@ -191,6 +191,48 @@ String result1 = str.replace("abc", "왕"); // aaabbbcccc왕dddd왕deeee
 // replaceAll : a or b or c 문자를 왕으로
 // 정규식을 활용할 수 있다. [^A-Z], [^0-9]
 String result2 = str.replaceAll("[abc]", "왕"); // 왕왕왕왕왕왕왕왕왕왕왕왕왕dddd왕왕왕deeee
+```
 
+---
+
+- 숫자만 찾기
+
+```java
+Character.isDigit(x);
+
+// String 숫자로 변환(parseInt)
+// Integer.parseInt(string, 진수(8, 10 ...))
+Inter.parseInt(string)
+```
+
+- 가장짧은 문자거리
+
+```java
+// 이유는 어차피 앞에서 한바퀴, 뒤에서 한 바퀴 돌 것
+// 최소값과 비교하기 위한 초기값
+int p = 1000;
+
+// 두 개중 최소값
+return answer[i] = Math.min(answer[i], p);
+```
+
+- 문자열 압축
+
+```java
+// for 안에 2씩 증가 (i+=2)
+int cnt = 1;
+
+// 설정하고 String 형태로 변환하고 넣는다.
+answer += s.charAt(i)l
+if(cnt>1) answer+=String.valueOf(cnt);
+```
+
+- 암호
+
+```java
+//
+String tmp = s.substring(0, 7).replace("#", "1").replace("*")
+// 7 번째부터 것만 저장한다.
+s=s.substring(7);
 ```
 
